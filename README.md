@@ -4,7 +4,10 @@ Este proyecto realiza un análisis estadístico, preprocesamiento, estructuraci�
 
 
 Portal de datos abiertos: [Observatorio Nacional de Seguridad Vial - ONSV](https://www.onsv.gob.pe/datosabiertos)
+
 Mapa del Perú con límites distritales: [GeoJSON Perú](https://www.arcgis.com/home/item.html?id=6d183ac55a604ce1959458d1ac6f05d8)
+
+Datos Georreferenciados : [Geo Perú](https://visor.geoperu.gob.pe/)
 
 ## 📁 Estructura del Repositorio
 
