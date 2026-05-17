@@ -24,7 +24,7 @@ fig.suptitle('EDA 1: Contexto Ambiental y Clasificación', fontsize=18, fontweig
 
 sns.countplot(data=df, x='ZONA', ax=axes[0, 0], palette='Set2')
 axes[0, 0].set_title('1. Distribución por Zona', fontweight='bold')
-sns.countplot(data=df, x='CONDICIÓN CLIMÁTICA', ax=axes[0, 1], palette='coolwarm')
+sns.countplot(data=df, y='CONDICIÓN CLIMÁTICA', ax=axes[0, 1], palette='coolwarm', order=df['CONDICIÓN CLIMÁTICA'].value_counts().index)
 axes[0, 1].set_title('2. Condición Climática', fontweight='bold')
 sns.countplot(data=df, y='TIPO DE VÍA', ax=axes[1, 0], palette='pastel', order=df['TIPO DE VÍA'].value_counts().index)
 axes[1, 0].set_title('3. Incidencia por Tipo de Vía', fontweight='bold')

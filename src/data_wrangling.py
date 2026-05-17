@@ -120,7 +120,7 @@ print("\n" + "="*95)
 print(" REPORTE DE GOBIERNO DE DATOS: AUDITORÍA DE 16 VARIABLES CRÍTICAS")
 print("="*95)
 for i, reg in enumerate(auditoria['variables_auditadas'], 1):
-    icono = "✅" if reg['Corruptos/Nulos'] == 0 else "⚠️"
+    icono = "✅" if reg['Corruptos/Nulos'] == 0 else "⚠️ "
     print(f" {i:>2}. {reg['Tabla']:<11} | {reg['Variable']:<35} | {reg['Corruptos/Nulos']:<8} | {icono} {reg['Acción']}")
 print(f"\n DATASET MAESTRO (Con Población Integrada): {len(df_master)} incidentes listos.")
 print("="*95 + "\n")
